@@ -80,6 +80,22 @@ class InformationSystemDetailsTable extends Table
         $this->belongsTo('Frameworks', [
             'foreignKey' => 'framework_id',
         ]);
+        $this->belongsTo('BackendProgrammingLanguage', [
+            'className' => 'ProgrammingLanguages',
+            'foreignKey' => 'backend_programming_language_id',
+        ]);
+        $this->belongsTo('FrontendProgrammingLanguage', [
+            'className' => 'ProgrammingLanguages',
+            'foreignKey' => 'frontend_programming_language_id',
+        ]);
+        $this->belongsTo('FrameworkBackend', [
+            'className' => 'Frameworks',
+            'foreignKey' => 'framework_backend',
+        ]);
+        $this->belongsTo('FrameworkFrontend', [
+            'className' => 'Frameworks',
+            'foreignKey' => 'framework_frontend',
+        ]);
         $this->belongsTo('SecurityTools', [
             'foreignKey' => 'security_tool_id',
         ]);
@@ -171,6 +187,14 @@ class InformationSystemDetailsTable extends Table
         $validator
             ->uuid('framework_id')
             ->allowEmptyString('framework_id');
+
+        $validator
+            ->uuid('framework_backend')
+            ->allowEmptyString('framework_backend');
+
+        $validator
+            ->uuid('framework_frontend')
+            ->allowEmptyString('framework_frontend');
 
         $validator
             ->uuid('security_tool_id')
