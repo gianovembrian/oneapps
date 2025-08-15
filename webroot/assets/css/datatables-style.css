@@ -1,0 +1,39 @@
+        #kt_wrapper {
+            margin-top: auto;
+            padding-top: 80px; 
+        }
+
+        .dataTables_length label {
+            font-size: 1rem;  /* Match Bootstrap font size */
+            display: flex;
+            align-items: center; /* Align dropdown with label */
+        }
+
+        .dataTables_length select {
+            display: flex;
+            font-size: 1rem; /* Match Bootstrap font size */
+            padding: 1rem 2rem; /* Bootstrap padding */
+            border-radius: 0.25rem; /* Bootstrap rounded corners */
+            border: 0px solid #ced4da; /* Bootstrap border color */
+            width: 1rem;
+        }
+
+        .dataTables_filter label {
+            font-size: 1rem; /* Match Bootstrap font size */
+            align-items: center; /* Align search input with label */
+        }
+
+        .dataTables_filter input {
+            width: 100%;
+            font-size: 1rem; /* Match Bootstrap font size */
+            padding: 0.375rem 0.75rem; /* Bootstrap padding */
+            border-radius: 0.25rem; /* Bootstrap rounded corners */
+            border: 1px solid #ced4da; /* Bootstrap border color */
+        }
+
+        .dataTables_wrapper table.dataTable td,
+        .dataTables_wrapper table.dataTable th {
+            padding: 10px; /* Adjust the value as needed */
+        }
+
+

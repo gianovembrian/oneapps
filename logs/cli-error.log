@@ -1,0 +1,1232 @@
+2024-09-06 08:38:24 error: [Cake\Database\Exception\DatabaseException] Cannot describe model_name. It has 0 columns. in /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 118
+Stack Trace:
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/ORM/Table.php:544
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/apps-project/apps-cake5/bin/cake.php:10
+- [main]:
+
+2024-09-27 07:56:02 error: [Cake\Core\Exception\MissingPluginException] Plugin `Saul/Theme` could not be found. in /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 190
+Exception Attributes: array (
+  'plugin' => 'Saul/Theme',
+)
+Stack Trace:
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Core/PluginCollection.php:314
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Http/BaseApplication.php:139
+- /Users/gianovembrian/apps-project/apps-cake5/src/Application.php:50
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Console/CommandRunner.php:190
+- /Users/gianovembrian/apps-project/apps-cake5/vendor/cakephp/cakephp/src/Console/CommandRunner.php:137
+- /Users/gianovembrian/apps-project/apps-cake5/bin/cake.php:10
+- [main]:
+
+2024-10-22 03:36:45 error: [Cake\Database\Exception\DatabaseException] Cannot describe pdln_users. It has 0 columns. in /Users/gianovembrian/apps-project/silaga-on/silaga-on/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 118
+Stack Trace:
+- /Users/gianovembrian/apps-project/silaga-on/silaga-on/vendor/cakephp/cakephp/src/ORM/Table.php:544
+- /Users/gianovembrian/apps-project/silaga-on/silaga-on/vendor/cakephp/bake/src/Command/ModelCommand.php:116
+- /Users/gianovembrian/apps-project/silaga-on/silaga-on/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /Users/gianovembrian/apps-project/silaga-on/silaga-on/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/apps-project/silaga-on/silaga-on/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/apps-project/silaga-on/silaga-on/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/apps-project/silaga-on/silaga-on/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:28 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:28 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:28 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:28 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:28 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:28 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:29 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:29 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:29 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:29 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:52:29 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:53:16 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:01 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:02 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:02 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:02 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:02 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:02 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:02 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:02 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:56:19 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections? in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 08:57:39 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 10:01:57 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 10:01:59 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+2025-08-08 10:44:09 error: [Cake\Database\Exception\MissingConnectionException] Connection to Postgres could not be established: SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 192
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[08006] [7] could not translate host name "port=5432" to address: nodename nor servname provided, or not known in /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php on line 181
+Stack Trace:
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:181
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:71
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver.php:190
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:95
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/SchemaDialect.php:51
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Driver/Postgres.php:132
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Database/Connection.php:362
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/bake/src/Command/ModelCommand.php:92
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/BaseCommand.php:192
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:327
+- /Users/gianovembrian/gitlab-project/oneapps/vendor/cakephp/cakephp/src/Console/CommandRunner.php:168
+- /Users/gianovembrian/gitlab-project/oneapps/bin/cake.php:10
+- [main]:
+
